@@ -1,0 +1,272 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <getSvcInstInfoResponse xmlns="http://pegasus/WsEsm">
+         <resultSvcInstInfo xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+            <ns1:returnStatus>true</ns1:returnStatus>
+            <ns1:svcInstId>252763980</ns1:svcInstId>
+            <ns1:svcNum>60001062</ns1:svcNum>
+            <ns1:acctNum>70545782</ns1:acctNum>
+            <ns1:acctNumType>4</ns1:acctNumType>
+            <ns1:svcGroup>239</ns1:svcGroup>
+            <ns1:svcType>IS</ns1:svcType>
+            <ns1:svcInstStatus>3</ns1:svcInstStatus>
+            <ns1:rentalTariffGrp>01</ns1:rentalTariffGrp>
+            <ns1:disconnectReason/>
+            <ns1:disconnectCd/>
+            <ns1:xdInd/>
+            <ns1:tempSvcInd xsi:nil="1"/>
+            <ns1:companyCd/>
+            <ns1:deptCd/>
+            <ns1:vendorCd/>
+            <ns1:instAddrA>
+               <ns1:addrKey>68829873</ns1:addrKey>
+               <ns1:addrStatus xsi:nil="1"/>
+               <ns1:locationDesc xsi:nil="1"/>
+               <ns1:floorLvlUnitDesc/>
+               <ns1:floorLvlUnitNo/>
+               <ns1:blkHseDesc/>
+               <ns1:blkHseNo>123456</ns1:blkHseNo>
+               <ns1:bldgNm/>
+               <ns1:devNm/>
+               <ns1:postalCd>666666</ns1:postalCd>
+               <ns1:streetNm>LYP</ns1:streetNm>
+               <ns1:country>SNG</ns1:country>
+               <ns1:state/>
+               <ns1:localityNm/>
+               <ns1:unstructInd>Y</ns1:unstructInd>
+               <ns1:acctAddrTy xsi:nil="1"/>
+               <ns1:siWoAddrTy xsi:nil="1"/>
+               <ns1:acctNo xsi:nil="1"/>
+               <ns1:wkOrdNo xsi:nil="1"/>
+               <ns1:svcInstNo xsi:nil="1"/>
+               <ns1:siNm xsi:nil="1"/>
+               <ns1:exchangeCode xsi:nil="1"/>
+               <ns1:utopiaInd/>
+            </ns1:instAddrA>
+            <ns1:instAddrB>
+               <ns1:addrKey/>
+               <ns1:addrStatus xsi:nil="1"/>
+               <ns1:locationDesc xsi:nil="1"/>
+               <ns1:floorLvlUnitDesc/>
+               <ns1:floorLvlUnitNo/>
+               <ns1:blkHseDesc/>
+               <ns1:blkHseNo/>
+               <ns1:bldgNm/>
+               <ns1:devNm/>
+               <ns1:postalCd/>
+               <ns1:streetNm/>
+               <ns1:country/>
+               <ns1:state/>
+               <ns1:localityNm/>
+               <ns1:unstructInd/>
+               <ns1:acctAddrTy xsi:nil="1"/>
+               <ns1:siWoAddrTy xsi:nil="1"/>
+               <ns1:acctNo xsi:nil="1"/>
+               <ns1:wkOrdNo xsi:nil="1"/>
+               <ns1:svcInstNo xsi:nil="1"/>
+               <ns1:siNm xsi:nil="1"/>
+               <ns1:exchangeCode xsi:nil="1"/>
+               <ns1:utopiaInd/>
+            </ns1:instAddrB>
+            <ns1:ntwkPrd>
+               <ns1:ntwkPrdCd>VOL0002</ns1:ntwkPrdCd>
+               <ns1:ntwkPrdDesc>VoiceLink Master Line(SBO)</ns1:ntwkPrdDesc>
+               <ns1:levelInd>1</ns1:levelInd>
+               <ns1:lineNo>1</ns1:lineNo>
+               <ns1:status>1</ns1:status>
+               <ns1:ntwkPrdParam>
+                  <ns1:paramNm>DTCardNo</ns1:paramNm>
+                  <ns1:paramVal>4353</ns1:paramVal>
+               </ns1:ntwkPrdParam>
+               <ns1:ntwkPrdParam>
+                  <ns1:paramNm>LCRef</ns1:paramNm>
+                  <ns1:paramVal>345</ns1:paramVal>
+               </ns1:ntwkPrdParam>
+               <ns1:ntwkPrdParam>
+                  <ns1:paramNm>MlhInd</ns1:paramNm>
+                  <ns1:paramVal>N</ns1:paramVal>
+               </ns1:ntwkPrdParam>
+               <ns1:ntwkPrdParam>
+                  <ns1:paramNm>ShaNo</ns1:paramNm>
+                  <ns1:paramVal/>
+               </ns1:ntwkPrdParam>
+               <ns1:ntwkPrdParam>
+                  <ns1:paramNm>SvcNo</ns1:paramNm>
+                  <ns1:paramVal>60001062</ns1:paramVal>
+               </ns1:ntwkPrdParam>
+               <ns1:startDt>03/12/2019</ns1:startDt>
+               <ns1:endDt/>
+               <ns1:actionTy xsi:nil="1"/>
+               <ns1:imdCloseInd xsi:nil="1"/>
+               <ns1:nwInstId>2487786459</ns1:nwInstId>
+            </ns1:ntwkPrd>
+            <ns1:ntwkPrd>
+               <ns1:ntwkPrdCd>VOL0021</ns1:ntwkPrdCd>
+               <ns1:ntwkPrdDesc>VoiceLink Caller ID</ns1:ntwkPrdDesc>
+               <ns1:levelInd>3</ns1:levelInd>
+               <ns1:lineNo>1</ns1:lineNo>
+               <ns1:status>1</ns1:status>
+               <ns1:startDt>03/12/2019</ns1:startDt>
+               <ns1:endDt/>
+               <ns1:actionTy xsi:nil="1"/>
+               <ns1:imdCloseInd xsi:nil="1"/>
+               <ns1:nwInstId>2487786460</ns1:nwInstId>
+            </ns1:ntwkPrd>
+            <ns1:billPrd>
+               <ns1:billPrdType>1</ns1:billPrdType>
+               <ns1:billPkgId>197</ns1:billPkgId>
+               <ns1:billCompId>6465</ns1:billCompId>
+               <ns1:billPkgNm>L3 VoiceLink (Operator Numbers)</ns1:billPkgNm>
+               <ns1:billCompNm>L3 VoiceLink line subscription with Caller Number Display using Customer numbers (Master)</ns1:billCompNm>
+               <ns1:startDt>03/12/2019</ns1:startDt>
+               <ns1:endDt/>
+               <ns1:elemNm>L3 VoiceLink with CND</ns1:elemNm>
+               <ns1:compInstId>261</ns1:compInstId>
+               <ns1:compInstIdServ>9</ns1:compInstIdServ>
+               <ns1:billPkgDesc xsi:nil="1"/>
+               <ns1:billCompDesc xsi:nil="1"/>
+               <ns1:rcRate>
+                  <ns1:elementNm>6623</ns1:elementNm>
+                  <ns1:elementDesc xsi:nil="1"/>
+                  <ns1:configCurrCode xsi:nil="1"/>
+                  <ns1:configRate xsi:nil="1"/>
+                  <ns1:overrideCurrCode xsi:nil="1"/>
+                  <ns1:overrideRate xsi:nil="1"/>
+                  <ns1:contractDuration>4,160</ns1:contractDuration>
+                  <ns1:rate xsi:nil="1"/>
+                  <ns1:impliedDecimals xsi:nil="1"/>
+                  <ns1:currencyCode xsi:nil="1"/>
+                  <ns1:startDt>03/12/2019</ns1:startDt>
+                  <ns1:endDt/>
+                  <ns1:configOrOverride xsi:nil="1"/>
+               </ns1:rcRate>
+               <ns1:ntwkPrd>
+                  <ns1:ntwkPrdCd>VOL0002</ns1:ntwkPrdCd>
+                  <ns1:ntwkPrdDesc>VoiceLink Master Line(SBO)</ns1:ntwkPrdDesc>
+                  <ns1:levelInd>1</ns1:levelInd>
+                  <ns1:lineNo>1</ns1:lineNo>
+                  <ns1:status>1</ns1:status>
+                  <ns1:ntwkPrdParam>
+                     <ns1:paramNm>DTCardNo</ns1:paramNm>
+                     <ns1:paramVal>4353</ns1:paramVal>
+                  </ns1:ntwkPrdParam>
+                  <ns1:ntwkPrdParam>
+                     <ns1:paramNm>LCRef</ns1:paramNm>
+                     <ns1:paramVal>345</ns1:paramVal>
+                  </ns1:ntwkPrdParam>
+                  <ns1:ntwkPrdParam>
+                     <ns1:paramNm>MlhInd</ns1:paramNm>
+                     <ns1:paramVal>N</ns1:paramVal>
+                  </ns1:ntwkPrdParam>
+                  <ns1:ntwkPrdParam>
+                     <ns1:paramNm>ShaNo</ns1:paramNm>
+                     <ns1:paramVal/>
+                  </ns1:ntwkPrdParam>
+                  <ns1:ntwkPrdParam>
+                     <ns1:paramNm>SvcNo</ns1:paramNm>
+                     <ns1:paramVal>60001062</ns1:paramVal>
+                  </ns1:ntwkPrdParam>
+                  <ns1:startDt>03/12/2019</ns1:startDt>
+                  <ns1:endDt/>
+                  <ns1:actionTy xsi:nil="1"/>
+                  <ns1:imdCloseInd xsi:nil="1"/>
+                  <ns1:nwInstId>2487786459</ns1:nwInstId>
+               </ns1:ntwkPrd>
+               <ns1:ntwkPrd>
+                  <ns1:ntwkPrdCd>VOL0021</ns1:ntwkPrdCd>
+                  <ns1:ntwkPrdDesc>VoiceLink Caller ID</ns1:ntwkPrdDesc>
+                  <ns1:levelInd>3</ns1:levelInd>
+                  <ns1:lineNo>1</ns1:lineNo>
+                  <ns1:status>1</ns1:status>
+                  <ns1:startDt>03/12/2019</ns1:startDt>
+                  <ns1:endDt/>
+                  <ns1:actionTy xsi:nil="1"/>
+                  <ns1:imdCloseInd xsi:nil="1"/>
+                  <ns1:nwInstId>2487786460</ns1:nwInstId>
+               </ns1:ntwkPrd>
+            </ns1:billPrd>
+            <ns1:startDt>03/12/2019</ns1:startDt>
+            <ns1:endDt/>
+            <ns1:createBy>liush</ns1:createBy>
+            <ns1:dateCreated>23/11/2019</ns1:dateCreated>
+            <ns1:billPeriod>R01</ns1:billPeriod>
+            <ns1:custAcctNumType>4</ns1:custAcctNumType>
+            <ns1:custAcctNum>C103043056</ns1:custAcctNum>
+            <ns1:originalStartDate>23/11/2019</ns1:originalStartDate>
+            <ns1:bearerNm xsi:nil="1"/>
+            <ns1:bearerIdType xsi:nil="1"/>
+            <ns1:bearerNRIC xsi:nil="1"/>
+            <ns1:bearerAddr/>
+            <ns1:arborSvcTy>639</ns1:arborSvcTy>
+            <ns1:switchUnit xsi:nil="1"/>
+            <ns1:svcDesc>Level 3 VoiceLink</ns1:svcDesc>
+            <ns1:mainDirectoryNo xsi:nil="1"/>
+            <ns1:instFirstNm/>
+            <ns1:instLastNm/>
+            <ns1:billAcct>
+               <ns1:billAcctId>70545782</ns1:billAcctId>
+               <ns1:acctCategory>4</ns1:acctCategory>
+               <ns1:blistInd xsi:nil="1"/>
+               <ns1:billCustClass>12</ns1:billCustClass>
+               <ns1:acctStatus>2</ns1:acctStatus>
+               <ns1:vipCd>12</ns1:vipCd>
+               <ns1:createDt>2019-10-22 08:00:00.0</ns1:createDt>
+               <ns1:billAcctName>TEST11</ns1:billAcctName>
+               <ns1:blistReason xsi:nil="1"/>
+            </ns1:billAcct>
+            <ns1:acctInfo>
+               <ns1:returnStatus>false</ns1:returnStatus>
+               <ns1:acctId xsi:nil="1"/>
+               <ns1:acctNum xsi:nil="1"/>
+               <ns1:acctNumType>533</ns1:acctNumType>
+               <ns1:acctName xsi:nil="1"/>
+               <ns1:acctNameAlias xsi:nil="1"/>
+               <ns1:acctCategory xsi:nil="1"/>
+               <ns1:acctClassInd xsi:nil="1"/>
+               <ns1:acctStatus>2</ns1:acctStatus>
+               <ns1:acctType xsi:nil="1"/>
+               <ns1:custAcctNum>TEST11</ns1:custAcctNum>
+               <ns1:custAcctNumType xsi:nil="1"/>
+               <ns1:custAcctName>TEST11</ns1:custAcctName>
+               <ns1:custClass>10</ns1:custClass>
+               <ns1:custSince xsi:nil="1"/>
+               <ns1:custAgreeNo xsi:nil="1"/>
+               <ns1:parentAcctNum xsi:nil="1"/>
+               <ns1:parentAcctNumType xsi:nil="1"/>
+               <ns1:blistInd xsi:nil="1"/>
+               <ns1:blistReason xsi:nil="1"/>
+               <ns1:creditRating xsi:nil="1"/>
+               <ns1:taxExemptInd xsi:nil="1"/>
+               <ns1:payMethod xsi:nil="1"/>
+               <ns1:insertGrpInd xsi:nil="1"/>
+               <ns1:owningEntity xsi:nil="1"/>
+               <ns1:franchiseCd xsi:nil="1"/>
+               <ns1:billFormat xsi:nil="1"/>
+               <ns1:billMedia xsi:nil="1"/>
+               <ns1:billCycle xsi:nil="1"/>
+               <ns1:secretAcctInd xsi:nil="1"/>
+               <ns1:custFaceUnit xsi:nil="1"/>
+               <ns1:currencyCd>9</ns1:currencyCd>
+               <ns1:salutation xsi:nil="1"/>
+               <ns1:globalContractStatus xsi:nil="1"/>
+               <ns1:custAddr xsi:nil="1"/>
+               <ns1:billAddr xsi:nil="1"/>
+               <ns1:phoneInInd xsi:nil="1"/>
+               <ns1:custValueInd>NEW</ns1:custValueInd>
+               <ns1:custRrInd xsi:nil="1"/>
+               <ns1:vipCode>12</ns1:vipCode>
+               <ns1:noOfSI>0</ns1:noOfSI>
+               <ns1:addresseeName xsi:nil="1"/>
+               <ns1:gender xsi:nil="1"/>
+               <ns1:dateOfBirth xsi:nil="1"/>
+               <ns1:dueDate xsi:nil="1"/>
+               <ns1:outAmount xsi:nil="1"/>
+               <ns1:amountReturnStatus xsi:nil="1"/>
+               <ns1:ipaInd>N</ns1:ipaInd>
+               <ns1:eServInd xsi:nil="1"/>
+            </ns1:acctInfo>
+         </resultSvcInstInfo>
+      </getSvcInstInfoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

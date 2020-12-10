@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<getCIInfoResponse xmlns="http://pegasus/WsEsm">
+			<getCIInfoDO xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+				<ns1:lastCIDt>SIM Only</ns1:lastCIDt>
+				<ns1:lastLossCIType/>
+				<ns1:lastLossCIDt/>
+				<ns1:nextLossCIDt/>
+				<ns1:sapphire_standaloneCI0/>
+				<ns1:sapphire_mioCI1/>
+				<ns1:sapphire_mioCI0/>
+				<ns1:sapp_stdCI0_topupAmt/>
+				<ns1:sapp_mioCI1_topupAmt/>
+				<ns1:next06CIDt/>
+				<ns1:next12CIDt/>
+				<ns1:next18CIDt/>
+				<ns1:next21CIDt/>
+				<ns1:CI06TopupAmount/>
+				<ns1:CI12TopupAmount/>
+				<ns1:CI18TopupAmount/>
+				<ns1:equipModel/>
+				<ns1:configPricePlanInd>N</ns1:configPricePlanInd>
+			</getCIInfoDO>
+		</getCIInfoResponse>
+	</soapenv:Body>
+</soapenv:Envelope>

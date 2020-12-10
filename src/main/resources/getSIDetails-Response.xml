@@ -1,0 +1,46 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <getSIDetailsResponse xmlns="http://pegasus/WsEsm">
+         <siDetailsResult xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+            <ns1:siDetail>
+               <ns1:speed/>
+               <ns1:oCtry/>
+               <ns1:tCtry/>
+               <ns1:svNo>0000036186</ns1:svNo>
+               <ns1:aUnNo/>
+               <ns1:aUnDesc/>
+               <ns1:aBlding/>
+               <ns1:aDev/>
+               <ns1:aBlkTy/>
+               <ns1:aBlkNo>06-613</ns1:aBlkNo>
+               <ns1:aStrt>SENGKANG EAST WAY</ns1:aStrt>
+               <ns1:aCountry>SINGAPORE</ns1:aCountry>
+               <ns1:aPCode>544324</ns1:aPCode>
+               <ns1:aCity/>
+               <ns1:aState/>
+               <ns1:bUnNo/>
+               <ns1:bUnDesc/>
+               <ns1:bBlding/>
+               <ns1:bDev/>
+               <ns1:bBlkTy/>
+               <ns1:bBlkNo>#10-1023</ns1:bBlkNo>
+               <ns1:bStrt>AMK</ns1:bStrt>
+               <ns1:bCountry>SINGAPORE</ns1:bCountry>
+               <ns1:bPCode>123456</ns1:bPCode>
+               <ns1:bCity/>
+               <ns1:bState/>
+               <ns1:mlDesc/>
+               <ns1:brn>174427987R</ns1:brn>
+               <ns1:cName>DEMO NCS 1</ns1:cName>
+               <ns1:cClassification>5</ns1:cClassification>
+            </ns1:siDetail>
+            <ns1:status>
+               <ns1:status>true</ns1:status>
+               <ns1:errorCd/>
+               <ns1:errorMsg/>
+            </ns1:status>
+         </siDetailsResult>
+      </getSIDetailsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

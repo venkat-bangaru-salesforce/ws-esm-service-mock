@@ -1,0 +1,88 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<getOrderInfoResponse xmlns="http://pegasus/WsEsm">
+			<getOrderInfoResult xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+				<ns1:requestId xsi:nil="1"/>
+				<ns1:wkoNo>XOP9354001</ns1:wkoNo>
+				<ns1:ordTy>1</ns1:ordTy>
+				<ns1:ordStatus>2</ns1:ordStatus>
+				<ns1:ordSubmitDate/>
+				<ns1:svcNum>20</ns1:svcNum>
+				<ns1:svcTy>GL</ns1:svcTy>
+				<ns1:sdoNm xsi:nil="1"/>
+				<ns1:sdeNm xsi:nil="1"/>
+				<ns1:custAcctNum>C103043329</ns1:custAcctNum>
+				<ns1:custNm>TEST SEASE ORDER</ns1:custNm>
+				<ns1:acctNum>70548086</ns1:acctNum>
+				<ns1:acctBillFreq xsi:nil="1"/>
+				<ns1:acctCurr>9</ns1:acctCurr>
+				<ns1:billNwPrd>
+					<ns1:billPrdType>1</ns1:billPrdType>
+					<ns1:billPkgId>1710015</ns1:billPkgId>
+					<ns1:billCompId>1714798</ns1:billCompId>
+					<ns1:billPkgNm>Common Services</ns1:billPkgNm>
+					<ns1:billCompNm>Common Services Subscription</ns1:billCompNm>
+					<ns1:startDt/>
+					<ns1:endDt/>
+					<ns1:elemNm>Common Services Subscription</ns1:elemNm>
+					<ns1:compInstId/>
+					<ns1:compInstIdServ/>
+					<ns1:billPkgDesc>Common Services</ns1:billPkgDesc>
+					<ns1:billCompDesc>Common Services Subscription</ns1:billCompDesc>
+					<ns1:ratingKey>
+						<ns1:rateKeyNm>Jurisdiction</ns1:rateKeyNm>
+						<ns1:rateKeyVal/>
+					</ns1:ratingKey>
+					<ns1:ratingKey>
+						<ns1:rateKeyNm>Units</ns1:rateKeyNm>
+						<ns1:rateKeyVal/>
+					</ns1:ratingKey>
+					<ns1:rcRate>
+						<ns1:elementNm>Common Services Subscription</ns1:elementNm>
+						<ns1:elementDesc>Common Services Subscription</ns1:elementDesc>
+						<ns1:configCurrCode>9</ns1:configCurrCode>
+						<ns1:configRate>0</ns1:configRate>
+						<ns1:overrideCurrCode xsi:nil="1"/>
+						<ns1:overrideRate xsi:nil="1"/>
+						<ns1:contractDuration xsi:nil="1"/>
+						<ns1:rate xsi:nil="1"/>
+						<ns1:impliedDecimals xsi:nil="1"/>
+						<ns1:currencyCode xsi:nil="1"/>
+						<ns1:startDt xsi:nil="1"/>
+						<ns1:endDt xsi:nil="1"/>
+						<ns1:configOrOverride xsi:nil="1"/>
+					</ns1:rcRate>
+					<ns1:ntwkPrd>
+						<ns1:ntwkPrdCd>GLD0013</ns1:ntwkPrdCd>
+						<ns1:ntwkPrdDesc>G-Cloud Common Service</ns1:ntwkPrdDesc>
+						<ns1:levelInd>1</ns1:levelInd>
+						<ns1:lineNo>1</ns1:lineNo>
+						<ns1:status>1</ns1:status>
+						<ns1:startDt/>
+						<ns1:endDt/>
+						<ns1:actionTy xsi:nil="1"/>
+						<ns1:imdCloseInd xsi:nil="1"/>
+						<ns1:nwInstId xsi:nil="1"/>
+					</ns1:ntwkPrd>
+				</ns1:billNwPrd>
+				<ns1:projectCode xsi:nil="1"/>
+				<ns1:billDepCode/>
+				<ns1:siTieCode xsi:nil="1"/>
+				<ns1:instScheme xsi:nil="1"/>
+				<ns1:crdDt>11/03/2020</ns1:crdDt>
+				<ns1:ordAppliedDt>05/03/2020</ns1:ordAppliedDt>
+				<ns1:ordReceivedDt>05/03/2020</ns1:ordReceivedDt>
+				<ns1:clientCode/>
+				<ns1:gst>N</ns1:gst>
+				<ns1:transferFromSgo>1108</ns1:transferFromSgo>
+				<ns1:transferToSgo>1108</ns1:transferToSgo>
+				<ns1:rentalTariffGrp>01</ns1:rentalTariffGrp>
+				<ns1:exchangeRateClass>1</ns1:exchangeRateClass>
+				<ns1:svcActionTy>0</ns1:svcActionTy>
+				<ns1:ordPriority>1</ns1:ordPriority>
+				<ns1:softactAct>1</ns1:softactAct>
+			</getOrderInfoResult>
+		</getOrderInfoResponse>
+	</soapenv:Body>
+</soapenv:Envelope>

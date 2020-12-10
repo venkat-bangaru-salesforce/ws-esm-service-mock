@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <getSvcInstNoHistResponse xmlns="http://pegasus/WsEsm">
+         <GetSvcInstNoHistResult xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+            <ns1:SvcInstNoHistDO>
+               <ns1:svcNo>98000004</ns1:svcNo>
+               <ns1:startDt>2020-02-27</ns1:startDt>
+               <ns1:endDt/>
+               <ns1:levelInd>1</ns1:levelInd>
+               <ns1:ntwkPrdtCd/>
+               <ns1:ntwkPrdtDesc/>
+            </ns1:SvcInstNoHistDO>
+            <ns1:SvcInstNoHistDO>
+               <ns1:svcNo>99001454</ns1:svcNo>
+               <ns1:startDt>2020-02-18</ns1:startDt>
+               <ns1:endDt>2020-02-27</ns1:endDt>
+               <ns1:levelInd>1</ns1:levelInd>
+               <ns1:ntwkPrdtCd/>
+               <ns1:ntwkPrdtDesc/>
+            </ns1:SvcInstNoHistDO>
+         </GetSvcInstNoHistResult>
+      </getSvcInstNoHistResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

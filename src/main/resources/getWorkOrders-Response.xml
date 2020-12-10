@@ -1,0 +1,36 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<getWorkOrdersResponse xmlns="http://pegasus/WsEsm">
+			<result xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+				<ns1:returnStatus>true</ns1:returnStatus>
+				<ns1:workOrdInfo>
+					<ns1:workOrdNo>XOQ5692001</ns1:workOrdNo>
+					<ns1:svcOrdNo>XOQ5692</ns1:svcOrdNo>
+					<ns1:svcInstId>252775250</ns1:svcInstId>
+					<ns1:workOrdStatus>4</ns1:workOrdStatus>
+					<ns1:workOrdType>3</ns1:workOrdType>
+					<ns1:svcActionType>0</ns1:svcActionType>
+					<ns1:billEffDt>31/07/2020</ns1:billEffDt>
+					<ns1:custReqDt>31/07/2020</ns1:custReqDt>
+					<ns1:dealerCd xsi:nil="1"/>
+					<ns1:salesmanCd xsi:nil="1"/>
+					<ns1:workOrdCreateId>zengchao2</ns1:workOrdCreateId>
+					<ns1:workOrdCreateDt>28/07/2020</ns1:workOrdCreateDt>
+					<ns1:lastUpdateId>zengchao2</ns1:lastUpdateId>
+					<ns1:lastUpdateDt>28/07/2020</ns1:lastUpdateDt>
+					<ns1:acctId/>
+					<ns1:jobEffectiveDt>31/07/2020</ns1:jobEffectiveDt>
+					<ns1:disconnectReason/>
+					<ns1:disconnectCd>220</ns1:disconnectCd>
+					<ns1:ordPriority>1</ns1:ordPriority>
+					<ns1:workOrdCompletionDt>31/07/2020</ns1:workOrdCompletionDt>
+					<ns1:cancelledDt/>
+					<ns1:cancelledCd/>
+					<ns1:cancelledReason/>
+					<ns1:applicationMode>0</ns1:applicationMode>
+				</ns1:workOrdInfo>
+			</result>
+		</getWorkOrdersResponse>
+	</soapenv:Body>
+</soapenv:Envelope>

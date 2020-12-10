@@ -1,0 +1,86 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <getAccountInfoResponse xmlns="http://pegasus/WsEsm">
+         <resultAccountInfo xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+            <ns1:returnStatus>true</ns1:returnStatus>
+            <ns1:acctId>70545790</ns1:acctId>
+            <ns1:acctNum>70545790</ns1:acctNum>
+            <ns1:acctNumType>4</ns1:acctNumType>
+            <ns1:acctName>NCS ST 01</ns1:acctName>
+            <ns1:acctNameAlias/>
+            <ns1:acctCategory>2</ns1:acctCategory>
+            <ns1:acctClassInd>2</ns1:acctClassInd>
+            <ns1:acctStatus>1</ns1:acctStatus>
+            <ns1:acctType>1</ns1:acctType>
+            <ns1:custAcctNum>C103043101</ns1:custAcctNum>
+            <ns1:custAcctNumType>4</ns1:custAcctNumType>
+            <ns1:custAcctName>NCS ST 01</ns1:custAcctName>
+            <ns1:custClass>9</ns1:custClass>
+            <ns1:custSince>22/10/2019</ns1:custSince>
+            <ns1:custAgreeNo/>
+            <ns1:parentAcctNum>C103043101</ns1:parentAcctNum>
+            <ns1:parentAcctNumType>4</ns1:parentAcctNumType>
+            <ns1:blistInd>N</ns1:blistInd>
+            <ns1:blistReason/>
+            <ns1:creditRating>0</ns1:creditRating>
+            <ns1:taxExemptInd>N</ns1:taxExemptInd>
+            <ns1:payMethod>1</ns1:payMethod>
+            <ns1:insertGrpInd>N</ns1:insertGrpInd>
+            <ns1:owningEntity>1</ns1:owningEntity>
+            <ns1:franchiseCd>0</ns1:franchiseCd>
+            <ns1:billFormat>13</ns1:billFormat>
+            <ns1:billMedia>6</ns1:billMedia>
+            <ns1:billCycle>C01</ns1:billCycle>
+            <ns1:secretAcctInd>1</ns1:secretAcctInd>
+            <ns1:custFaceUnit>9</ns1:custFaceUnit>
+            <ns1:currencyCd>2</ns1:currencyCd>
+            <ns1:salutation/>
+            <ns1:globalContractStatus>N</ns1:globalContractStatus>
+            <ns1:custAddr xsi:nil="1"/>
+            <ns1:billAddr>
+               <ns1:addrKey>27869464</ns1:addrKey>
+               <ns1:addrStatus xsi:nil="1"/>
+               <ns1:locationDesc xsi:nil="1"/>
+               <ns1:floorLvlUnitDesc/>
+               <ns1:floorLvlUnitNo>111</ns1:floorLvlUnitNo>
+               <ns1:blkHseDesc/>
+               <ns1:blkHseNo>111</ns1:blkHseNo>
+               <ns1:bldgNm>777</ns1:bldgNm>
+               <ns1:devNm/>
+               <ns1:postalCd>786249</ns1:postalCd>
+               <ns1:streetNm>777</ns1:streetNm>
+               <ns1:country>SNG</ns1:country>
+               <ns1:state/>
+               <ns1:localityNm/>
+               <ns1:unstructInd>Y</ns1:unstructInd>
+               <ns1:acctAddrTy xsi:nil="1"/>
+               <ns1:siWoAddrTy xsi:nil="1"/>
+               <ns1:acctNo xsi:nil="1"/>
+               <ns1:wkOrdNo xsi:nil="1"/>
+               <ns1:svcInstNo xsi:nil="1"/>
+               <ns1:siNm xsi:nil="1"/>
+               <ns1:exchangeCode xsi:nil="1"/>
+               <ns1:utopiaInd/>
+            </ns1:billAddr>
+            <ns1:phoneInInd>Y</ns1:phoneInInd>
+            <ns1:custValueInd/>
+            <ns1:custRrInd/>
+            <ns1:vipCode>12</ns1:vipCode>
+            <ns1:noOfSI>0</ns1:noOfSI>
+            <ns1:addresseeName/>
+            <ns1:gender/>
+            <ns1:dateOfBirth/>
+            <ns1:dueDate xsi:nil="1"/>
+            <ns1:outAmount xsi:nil="1"/>
+            <ns1:amountReturnStatus>
+               <ns1:status>false</ns1:status>
+               <ns1:errorCd>30008</ns1:errorCd>
+               <ns1:errorMsg>Billing Account ID not found</ns1:errorMsg>
+            </ns1:amountReturnStatus>
+            <ns1:ipaInd>N</ns1:ipaInd>
+            <ns1:eServInd xsi:nil="1"/>
+         </resultAccountInfo>
+      </getAccountInfoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

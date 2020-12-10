@@ -1,0 +1,200 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <getCustAcctHierarchyDtlsResponse xmlns="http://pegasus/WsEsm">
+         <custHierarchyDO xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+            <ns1:custAcctList>
+               <ns1:acctNo>TEST11</ns1:acctNo>
+               <ns1:acctNoType>533</ns1:acctNoType>
+               <ns1:nameList>
+                  <ns1:currentInd>Y</ns1:currentInd>
+                  <ns1:startDt>16/10/2019</ns1:startDt>
+                  <ns1:endDt/>
+                  <ns1:nmType>1</ns1:nmType>
+                  <ns1:salutation>COL</ns1:salutation>
+                  <ns1:firstName/>
+                  <ns1:lastName/>
+                  <ns1:middleInitials/>
+                  <ns1:name>TEST11</ns1:name>
+               </ns1:nameList>
+               <ns1:blackListInd/>
+               <ns1:custValueInd>NEW</ns1:custValueInd>
+               <ns1:custClass>10</ns1:custClass>
+               <ns1:phoneInInd>Y</ns1:phoneInInd>
+               <ns1:secretAcctInd/>
+               <ns1:startDt/>
+               <ns1:endDt/>
+               <ns1:acctStatus>2</ns1:acctStatus>
+               <ns1:acctType/>
+               <ns1:acctClassInd>1</ns1:acctClassInd>
+               <ns1:creditRating>0</ns1:creditRating>
+               <ns1:acctId>C102042882</ns1:acctId>
+               <ns1:parentAcctId/>
+               <ns1:acctCat/>
+               <ns1:blackListReason/>
+               <ns1:vipCode>12</ns1:vipCode>
+               <ns1:dateOfBirth/>
+               <ns1:payInd/>
+               <ns1:linkedAcctInd/>
+               <ns1:parentExtId/>
+               <ns1:custRrInd/>
+               <ns1:masterAgreeNo/>
+               <ns1:consentInd/>
+               <ns1:pureDelInd/>
+               <ns1:cmesInd>N</ns1:cmesInd>
+               <ns1:ipaInd>N</ns1:ipaInd>
+            </ns1:custAcctList>
+            <ns1:billAcctList>
+               <ns1:acctNo>70545782</ns1:acctNo>
+               <ns1:acctNoType>4</ns1:acctNoType>
+               <ns1:nameList>
+                  <ns1:currentInd>Y</ns1:currentInd>
+                  <ns1:startDt>22/10/2019</ns1:startDt>
+                  <ns1:endDt/>
+                  <ns1:nmType>2</ns1:nmType>
+                  <ns1:salutation/>
+                  <ns1:firstName/>
+                  <ns1:lastName/>
+                  <ns1:middleInitials/>
+                  <ns1:name>TEST FTTH</ns1:name>
+               </ns1:nameList>
+               <ns1:blackListInd/>
+               <ns1:custValueInd/>
+               <ns1:custClass>12</ns1:custClass>
+               <ns1:phoneInInd/>
+               <ns1:addressList>
+                  <ns1:addrKey/>
+                  <ns1:addrStatus xsi:nil="1"/>
+                  <ns1:locationDesc/>
+                  <ns1:floorLvlUnitDesc/>
+                  <ns1:floorLvlUnitNo/>
+                  <ns1:blkHseDesc/>
+                  <ns1:blkHseNo>123456</ns1:blkHseNo>
+                  <ns1:bldgNm/>
+                  <ns1:devNm/>
+                  <ns1:postalCd>666666</ns1:postalCd>
+                  <ns1:streetNm>LYP</ns1:streetNm>
+                  <ns1:country>SINGAPORE</ns1:country>
+                  <ns1:state/>
+                  <ns1:localityNm/>
+                  <ns1:unstructInd/>
+                  <ns1:acctAddrTy>2</ns1:acctAddrTy>
+                  <ns1:siWoAddrTy/>
+                  <ns1:acctNo>70545782</ns1:acctNo>
+                  <ns1:wkOrdNo xsi:nil="1"/>
+                  <ns1:svcInstNo xsi:nil="1"/>
+                  <ns1:siNm xsi:nil="1"/>
+                  <ns1:exchangeCode/>
+                  <ns1:utopiaInd xsi:nil="1"/>
+               </ns1:addressList>
+               <ns1:secretAcctInd/>
+               <ns1:startDt/>
+               <ns1:endDt/>
+               <ns1:acctStatus>2</ns1:acctStatus>
+               <ns1:acctType/>
+               <ns1:acctClassInd>2</ns1:acctClassInd>
+               <ns1:creditRating>1</ns1:creditRating>
+               <ns1:acctId>70545782</ns1:acctId>
+               <ns1:parentAcctId/>
+               <ns1:acctCat>4</ns1:acctCat>
+               <ns1:blackListReason/>
+               <ns1:vipCode>12</ns1:vipCode>
+               <ns1:dateOfBirth/>
+               <ns1:payInd/>
+               <ns1:linkedAcctInd>Y</ns1:linkedAcctInd>
+               <ns1:parentExtId/>
+               <ns1:custRrInd/>
+               <ns1:masterAgreeNo/>
+               <ns1:consentInd/>
+               <ns1:pureDelInd/>
+               <ns1:cmesInd xsi:nil="1"/>
+               <ns1:ipaInd>N</ns1:ipaInd>
+            </ns1:billAcctList>
+            <ns1:svcInstList>
+               <ns1:svcType>IS</ns1:svcType>
+               <ns1:arborSvcType>Level 3 VoiceLink</ns1:arborSvcType>
+               <ns1:startDt>03/12/2019</ns1:startDt>
+               <ns1:endDt/>
+               <ns1:svcInstStatus>3</ns1:svcInstStatus>
+               <ns1:svcNoList>
+                  <ns1:svcNo>60001062</ns1:svcNo>
+                  <ns1:startDt>03/12/2019</ns1:startDt>
+                  <ns1:endDt/>
+                  <ns1:levelInd>1</ns1:levelInd>
+                  <ns1:ntwkPrdtCd>VOL0002</ns1:ntwkPrdtCd>
+                  <ns1:ntwkPrdtDesc/>
+                  <ns1:usgSharingInd/>
+               </ns1:svcNoList>
+               <ns1:xdInd/>
+               <ns1:aEndAddress>
+                  <ns1:addrKey xsi:nil="1"/>
+                  <ns1:addrStatus xsi:nil="1"/>
+                  <ns1:locationDesc xsi:nil="1"/>
+                  <ns1:floorLvlUnitDesc xsi:nil="1"/>
+                  <ns1:floorLvlUnitNo xsi:nil="1"/>
+                  <ns1:blkHseDesc xsi:nil="1"/>
+                  <ns1:blkHseNo xsi:nil="1"/>
+                  <ns1:bldgNm xsi:nil="1"/>
+                  <ns1:devNm xsi:nil="1"/>
+                  <ns1:postalCd xsi:nil="1"/>
+                  <ns1:streetNm xsi:nil="1"/>
+                  <ns1:country xsi:nil="1"/>
+                  <ns1:state xsi:nil="1"/>
+                  <ns1:localityNm xsi:nil="1"/>
+                  <ns1:unstructInd xsi:nil="1"/>
+                  <ns1:acctAddrTy xsi:nil="1"/>
+                  <ns1:siWoAddrTy xsi:nil="1"/>
+                  <ns1:acctNo xsi:nil="1"/>
+                  <ns1:wkOrdNo xsi:nil="1"/>
+                  <ns1:svcInstNo xsi:nil="1"/>
+                  <ns1:siNm xsi:nil="1"/>
+                  <ns1:exchangeCode xsi:nil="1"/>
+                  <ns1:utopiaInd xsi:nil="1"/>
+               </ns1:aEndAddress>
+               <ns1:bEndAddress>
+                  <ns1:addrKey xsi:nil="1"/>
+                  <ns1:addrStatus xsi:nil="1"/>
+                  <ns1:locationDesc xsi:nil="1"/>
+                  <ns1:floorLvlUnitDesc xsi:nil="1"/>
+                  <ns1:floorLvlUnitNo xsi:nil="1"/>
+                  <ns1:blkHseDesc xsi:nil="1"/>
+                  <ns1:blkHseNo xsi:nil="1"/>
+                  <ns1:bldgNm xsi:nil="1"/>
+                  <ns1:devNm xsi:nil="1"/>
+                  <ns1:postalCd xsi:nil="1"/>
+                  <ns1:streetNm xsi:nil="1"/>
+                  <ns1:country xsi:nil="1"/>
+                  <ns1:state xsi:nil="1"/>
+                  <ns1:localityNm xsi:nil="1"/>
+                  <ns1:unstructInd xsi:nil="1"/>
+                  <ns1:acctAddrTy xsi:nil="1"/>
+                  <ns1:siWoAddrTy xsi:nil="1"/>
+                  <ns1:acctNo xsi:nil="1"/>
+                  <ns1:wkOrdNo xsi:nil="1"/>
+                  <ns1:svcInstNo xsi:nil="1"/>
+                  <ns1:siNm xsi:nil="1"/>
+                  <ns1:exchangeCode xsi:nil="1"/>
+                  <ns1:utopiaInd xsi:nil="1"/>
+               </ns1:bEndAddress>
+               <ns1:svcInstId>252763980</ns1:svcInstId>
+               <ns1:rentalTariff>01</ns1:rentalTariff>
+               <ns1:csiStartDate>23/11/2019</ns1:csiStartDate>
+               <ns1:origStartDate>23/11/2019</ns1:origStartDate>
+               <ns1:lineTieInd/>
+               <ns1:switchUnit/>
+               <ns1:clientName/>
+               <ns1:instValueInd/>
+               <ns1:rights/>
+               <ns1:guarantorAcctName/>
+               <ns1:guarantorAcct/>
+               <ns1:svcNoContact/>
+               <ns1:churnValue/>
+               <ns1:clvValue/>
+            </ns1:svcInstList>
+            <ns1:status>true</ns1:status>
+            <ns1:errCd/>
+            <ns1:errMsg/>
+         </custHierarchyDO>
+      </getCustAcctHierarchyDtlsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

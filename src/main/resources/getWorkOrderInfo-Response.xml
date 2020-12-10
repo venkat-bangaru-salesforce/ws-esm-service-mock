@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<getWorkOrderInfoResponse xmlns="http://pegasus/WsEsm">
+			<workOrderInfoResult xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+				<ns1:workOrderList>
+					<ns1:workOrdNo>XOP4535001</ns1:workOrdNo>
+					<ns1:workOrdDtls>
+						<ns1:workOrdNo>XOP4535001</ns1:workOrdNo>
+						<ns1:svcOrdNo>XOP4535</ns1:svcOrdNo>
+						<ns1:svcInstId>252763876</ns1:svcInstId>
+						<ns1:acctId>C102042879</ns1:acctId>
+						<ns1:billEffectiveDt/>
+						<ns1:custReqDt>15/11/2019</ns1:custReqDt>
+						<ns1:jobEffectiveDt/>
+						<ns1:disconnectReason/>
+						<ns1:disconnectCd/>
+						<ns1:ordPriority>1</ns1:ordPriority>
+						<ns1:svcActionTy>0</ns1:svcActionTy>
+						<ns1:workOrdCompletionDt/>
+						<ns1:workOrdCreateDt xsi:nil="1"/>
+						<ns1:workOrdCreateId>test</ns1:workOrdCreateId>
+						<ns1:workOrdStatus>5</ns1:workOrdStatus>
+						<ns1:workOrdTy>1</ns1:workOrdTy>
+						<ns1:cancelledDt xsi:nil="1"/>
+						<ns1:cancelledCd/>
+						<ns1:cancelledReason/>
+					</ns1:workOrdDtls>
+				</ns1:workOrderList>
+				<ns1:returnStatus>true</ns1:returnStatus>
+			</workOrderInfoResult>
+		</getWorkOrderInfoResponse>
+	</soapenv:Body>
+</soapenv:Envelope>
