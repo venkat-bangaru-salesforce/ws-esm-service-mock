@@ -1,1 +1,59 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Header/><soapenv:Body><getListOfBillAcctResponse xmlns="http://pegasus/WsEsm"><billAcctInfo xmlns="" xmlns:ns1="http://pegasus/WsEsm"><ns1:billAcctDtls><ns1:billingAcctId>70551429</ns1:billingAcctId><ns1:overdueAmt xsi:nil="1"/><ns1:outstandingBalance xsi:nil="1"/><ns1:billAddr><ns1:locationDesc xsi:nil="1"/><ns1:floorLvlUnitDesc xsi:nil="1"/><ns1:floorLvlUnitNo xsi:nil="1"/><ns1:blkHseDesc xsi:nil="1"/><ns1:blkHseNo>06-613</ns1:blkHseNo><ns1:bldgNm xsi:nil="1"/><ns1:devNm xsi:nil="1"/><ns1:postalCd>544324</ns1:postalCd><ns1:streetNm>SENGKANGEASTWAY</ns1:streetNm><ns1:country xsi:nil="1"/><ns1:state xsi:nil="1"/><ns1:localityNm xsi:nil="1"/><ns1:utopiaInd xsi:nil="1"/><ns1:ipaInd xsi:nil="1"/></ns1:billAddr></ns1:billAcctDtls><ns1:statusDO><ns1:status>true</ns1:status><ns1:errorCd xsi:nil="1"/><ns1:errorMsg xsi:nil="1"/></ns1:statusDO></billAcctInfo></getListOfBillAcctResponse></soapenv:Body></soapenv:Envelope>
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Header />
+	<soapenv:Body>
+		<getListOfBillAcctResponse
+			xmlns="http://pegasus/WsEsm">
+			<billAcctInfo xmlns="" xmlns:ns1="http://pegasus/WsEsm">
+				<ns1:billAcctDtls>
+					<ns1:billingAcctId>70551429</ns1:billingAcctId>
+					<ns1:overdueAmt xsi:nil="1" />
+					<ns1:outstandingBalance>100</ns1:outstandingBalance>
+					<ns1:billAddr>
+						<ns1:locationDesc xsi:nil="1" />
+						<ns1:floorLvlUnitDesc xsi:nil="1" />
+						<ns1:floorLvlUnitNo xsi:nil="1" />
+						<ns1:blkHseDesc xsi:nil="1" />
+						<ns1:blkHseNo>06-613</ns1:blkHseNo>
+						<ns1:bldgNm xsi:nil="1" />
+						<ns1:devNm xsi:nil="1" />
+						<ns1:postalCd>544324</ns1:postalCd>
+						<ns1:streetNm>SENGKANGEASTWAY</ns1:streetNm>
+						<ns1:country xsi:nil="1" />
+						<ns1:state xsi:nil="1" />
+						<ns1:localityNm xsi:nil="1" />
+						<ns1:utopiaInd xsi:nil="1" />
+						<ns1:ipaInd xsi:nil="1" />
+					</ns1:billAddr>
+				</ns1:billAcctDtls>
+				<ns1:billAcctDtls>
+					<ns1:billingAcctId>70551430</ns1:billingAcctId>
+					<ns1:overdueAmt xsi:nil="1" />
+					<ns1:outstandingBalance>200</ns1:outstandingBalance>
+					<ns1:billAddr>
+						<ns1:locationDesc xsi:nil="1" />
+						<ns1:floorLvlUnitDesc xsi:nil="1" />
+						<ns1:floorLvlUnitNo xsi:nil="1" />
+						<ns1:blkHseDesc xsi:nil="1" />
+						<ns1:blkHseNo>06-614</ns1:blkHseNo>
+						<ns1:bldgNm xsi:nil="1" />
+						<ns1:devNm xsi:nil="1" />
+						<ns1:postalCd>544330</ns1:postalCd>
+						<ns1:streetNm>SENGKANGWESTWAY</ns1:streetNm>
+						<ns1:country xsi:nil="1" />
+						<ns1:state xsi:nil="1" />
+						<ns1:localityNm xsi:nil="1" />
+						<ns1:utopiaInd xsi:nil="1" />
+						<ns1:ipaInd xsi:nil="1" />
+					</ns1:billAddr>
+				</ns1:billAcctDtls>
+				<ns1:statusDO>
+					<ns1:status>true</ns1:status>
+					<ns1:errorCd xsi:nil="1" />
+					<ns1:errorMsg xsi:nil="1" />
+				</ns1:statusDO>
+			</billAcctInfo>
+		</getListOfBillAcctResponse>
+	</soapenv:Body>
+</soapenv:Envelope>
